@@ -10,7 +10,7 @@ void setup()
   myFlakes = new ArrayList<Snowflake>();
   
   for(int i = 0; i < 444; i++)
-    myFlakes.add(new Snowflake(random(4, 8), random(2, 6), random(1, 3), random(0.1, 0.2)));
+    myFlakes.add(new Snowflake(random(4, 8), random(2, 6), random(1, 3), random(0, 0.2)));
 }
 
 void draw()
